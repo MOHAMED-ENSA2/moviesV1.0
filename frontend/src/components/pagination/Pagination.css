@@ -1,0 +1,21 @@
+.pagination{
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+}
+
+.pagination--item{
+    font-size: 1.15rem;
+    background: rgb(var(--secondary-color));
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,29 @@
+.footer{
+    background: rgb(var(--secondary-color));
+    
+    margin-top: 4rem;
+    padding: 2rem 5%;
+}
+
+.footer-items{    
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 2rem;
+    border-bottom : 1px solid rgb(var(--primary-color))
+
+}
+
+.footer--item{
+    padding: .5rem 0;
+}
+
+.footer--item:hover{
+    cursor: pointer;
+    color: rgb(var(--primary-color), .5);
+}
+
+.footer--copyright{
+    padding-top: 1rem;
+    text-align: center;
+}

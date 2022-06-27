@@ -1,0 +1,34 @@
+.navbar{
+    background: rgb(var(--secondary-color));
+
+    padding-inline: 5%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 3rem;
+}
+
+.navbar--items{
+    display: flex;
+    gap: 2rem;
+
+}
+.navbar--item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.navbar--item:hover{
+    color: rgb(var(--primary-color), .7);
+    cursor: pointer;
+
+}
+
+.navbar--login{
+    display: flex;
+    gap: 1rem;
+}

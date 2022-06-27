@@ -1,0 +1,30 @@
+.searchbar{
+    background: rgb(var(--secondary-color));
+    
+    width: 350px;
+    padding: .6rem 1rem;
+    border-radius: 5px;
+
+    display: flex; 
+    align-items: center;
+    gap: 1rem ;
+}
+
+.searchbar i{
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.searchbar--input{
+    color: rgb(var(--primary-color));
+    font-size: 1.1rem;
+    line-height: 2;
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+

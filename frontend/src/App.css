@@ -1,0 +1,32 @@
+:root{
+  --primary-color : 255,255,255 ; 
+  --secondary-color : 33, 35, 66 ; 
+  --third-color : 0,0,0 ; 
+}
+
+.App{
+  color: rgb(var(--primary-color));
+  background-color: #ecf0f0;
+}
+
+.btn{
+  color: rgb(var(--secondary-color));
+  background: rgb(var(--primary-color));
+  font-weight: 600;
+  padding: .5rem 1.3rem;
+  border: none;
+}
+
+.btn:hover{
+  background: rgb(var(--primary-color), .7);
+  cursor: pointer;
+}
+
+.btn_curved{
+  border-radius: 25px;
+}
+
+.link{
+  all : unset ; 
+  cursor: pointer;
+}

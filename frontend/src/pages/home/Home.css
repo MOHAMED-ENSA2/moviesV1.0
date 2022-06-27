@@ -1,0 +1,14 @@
+.home{
+    padding-inline: 5%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.home--top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

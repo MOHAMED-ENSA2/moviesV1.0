@@ -1,0 +1,21 @@
+.notFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 70vh;
+}
+
+.notFound--error{
+    font-size : 7rem ; 
+    font-weight: 900;
+}
+
+.notFound--message{
+    
+}
+
+.notFound--message span{
+    color: rgb(var(--secondary-color));
+}
